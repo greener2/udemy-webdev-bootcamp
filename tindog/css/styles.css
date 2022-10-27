@@ -1,5 +1,5 @@
 body {
-    font-family: "Monserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
 }
 
 .nav-link {
-    font-family: "Monserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size:  1.2rem;
 }
@@ -48,4 +48,34 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Feature section */
+#features {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.feature-item {
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.feature-text {
+    color: #8f8f8f;
 }
