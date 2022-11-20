@@ -93,9 +93,8 @@ h2 {
 
 /* Testimonials */
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
-    background-color: #ff4c68;
+    background-color: #ef8172;
     color: white;
 }
 
@@ -105,10 +104,14 @@ h2 {
     margin: 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 /* Press */
 
 #press {
-    background-color: #ff4c68;
+    background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -178,4 +181,15 @@ h2 {
     }
 
     
+}
+
+/* Pricing  */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
