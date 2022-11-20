@@ -117,3 +117,65 @@ h2 {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-heading {
+    padding: 5%;
+    margin: 0 10%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.cta-button {
+    margin: 0px 10px 50px;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 3% 5%;
+}
+
+.footer-icons {
+    margin: 30px;
+}
+
+.footer-copyright {
+    color: #6c6c6c;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+
+    
+}
